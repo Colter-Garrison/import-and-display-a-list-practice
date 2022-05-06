@@ -7,6 +7,7 @@ export const plants = [
         order: 'Liliales',
         family: 'Melanthiaceae',
         genus: 'Trillium',
+        found: ['Oregon', 'California', 'Montana'],
     },
     {
         image: './assets/western-sword-fern.png',
@@ -16,6 +17,7 @@ export const plants = [
         order: 'Polypodiales',
         family: 'Dryopteridaceae',
         genus: 'Polystichum',
+        found: ['Washington', 'Oregon', 'California'],
     },
     {
         image: './assets/salal.png',
@@ -25,5 +27,6 @@ export const plants = [
         order: 'Ericales',
         family: 'Ericaceae',
         genus: 'Gaultheria',
+        found: ['Alaska', 'Washington', 'Oregon'],
     },
 ];
