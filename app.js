@@ -1,10 +1,16 @@
-// import functions and grab DOM elements
 import { plants } from './plants-data.js';
-import { renderPlants } from './utils.js';
-// let state
+import { renderPlants } from './renderPlants.js';
+import { mollusks } from './mollusks-data.js';
+import { renderMollusks } from './renderMollusks.js';
+
 const plantListEl = document.getElementById('plants');
-// set event listeners 
 for (let plant of plants) {
     const plantDiv = renderPlants(plant);
     plantListEl.append(plantDiv);
+}
+
+const molluskListEl = document.getElementById('mollusks');
+for (let mollusk of mollusks) {
+    const molluskDiv = renderMollusks(mollusk);
+    molluskListEl.append(molluskDiv);
 }

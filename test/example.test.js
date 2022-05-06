@@ -1,6 +1,6 @@
 // IMPORT MODULES under test here:
 import { plants } from '../plants-data.js';
-import { renderPlants } from '../utils.js';
+import { renderPlants } from '../renderPlants.js';
 
 const test = QUnit.test;
 
