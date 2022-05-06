@@ -1,7 +1,7 @@
 export const plants = [
     {
-        image: './assets/pacific-trillium.png',
         name: 'Pacific Trillium',
+        image: './assets/pacific-trillium.png',
         phylum: 'Tracheophyta',
         class: 'Liliopsida',
         order: 'Liliales',
@@ -10,8 +10,8 @@ export const plants = [
         found: ['Oregon', 'California', 'Montana'],
     },
     {
-        image: './assets/western-sword-fern.png',
         name: 'Western Sword Fern',
+        image: './assets/western-sword-fern.png',
         phylum: 'Tracheophyta',
         class: 'Polypodiopsida',
         order: 'Polypodiales',
@@ -20,8 +20,8 @@ export const plants = [
         found: ['Washington', 'Oregon', 'California'],
     },
     {
+        name: 'Salal',
         image: './assets/salal.png',
-        nme: 'Salal',
         phylum: 'Tracheophyta',
         class: 'Magnoliopsida',
         order: 'Ericales',
