@@ -2,6 +2,8 @@ import { plants } from './plants-data.js';
 import { renderPlants } from './renderPlants.js';
 import { mollusks } from './mollusks-data.js';
 import { renderMollusks } from './renderMollusks.js';
+import { insects } from './insects-data.js';
+import { renderInsects } from './renderInsects.js';
 
 const plantListEl = document.getElementById('plants');
 for (let plant of plants) {
