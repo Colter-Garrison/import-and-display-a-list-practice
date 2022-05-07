@@ -12,7 +12,7 @@ export function renderMollusks(mollusksEl) {
     p.textContent = `This mollusk is ${mollusksEl.native} and ${mollusksEl.length}.`;
 
     const h3 = document.createElement('h3');
-    h3.textContent = 'Comonly found in: ';
+    h3.textContent = 'Commonly found in: ';
 
     const ul = document.createElement('ul');
     for (let found of mollusksEl.found) {
