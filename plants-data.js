@@ -1,0 +1,32 @@
+export const plants = [
+    {
+        name: 'Pacific Trillium',
+        image: './assets/pacific-trillium.png',
+        phylum: 'Phylum: Tracheophyta',
+        class: 'Class: Liliopsida',
+        order: 'Order: Liliales',
+        family: 'Family: Melanthiaceae',
+        genus: 'Genus: Trillium',
+        found: ['Oregon', 'California', 'Montana'],
+    },
+    {
+        name: 'Western Sword Fern',
+        image: './assets/western-sword-fern.png',
+        phylum: 'Phylum: Tracheophyta',
+        class: 'Class: Polypodiopsida',
+        order: 'Order: Polypodiales',
+        family: 'Family: Dryopteridaceae',
+        genus: 'Genus: Polystichum',
+        found: ['Washington', 'Oregon', 'California'],
+    },
+    {
+        name: 'Salal',
+        image: './assets/salal.png',
+        phylum: 'Phylum: Tracheophyta',
+        class: 'Class: Magnoliopsida',
+        order: 'Order: Ericales',
+        family: 'Family: Ericaceae',
+        genus: 'Genus: Gaultheria',
+        found: ['Alaska', 'Oregon', 'Washington'],
+    },
+];
