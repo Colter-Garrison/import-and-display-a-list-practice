@@ -16,3 +16,9 @@ for (let mollusk of mollusks) {
     const molluskDiv = renderMollusks(mollusk);
     molluskListEl.append(molluskDiv);
 }
+
+const insectListEl = document.getElementById('insects');
+for (let insect of insects) {
+    const insectDiv = renderInsects(insect);
+    insectListEl.append(insectDiv);
+}
